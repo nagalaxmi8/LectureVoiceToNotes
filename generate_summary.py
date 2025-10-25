@@ -1,4 +1,5 @@
-import google.genai as genai
+import google.generativeai as genai
+
 
 def generate_summary(transcript: str, language: str = "English", summary_type: str = "Short") -> str:
     """

@@ -1,0 +1,146 @@
+/* style.css */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: #4B8BBE;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.stFileUploader, .stTextInput, .stSelectbox, .stRadio, .stButton {
+    margin-bottom: 1rem;
+}
+
+
+
+.stTextInput>div>input {
+    border-radius: 8px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+.stSelectbox>div>div {
+    border-radius: 8px;
+}
+
+.stRadio>div {
+    gap: 1rem;
+}
+
+.stDownloadButton>button {
+    background-color: #10B981;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    border: none;
+}
+
+.stExpander {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    margin-top: 1rem;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #4B8BBE;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0.2rem;
+}
+
+/* Hover effect */
+.stButton>button:hover {
+    background-color: #3771A1; /* darker blue */
+    color: white;
+}
+
+/* Bigger and bolder file uploader */
+.stFileUploader {
+    text-align: center;
+    border: 2px dashed #4B8BBE;
+    border-radius: 16px;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Hover effect */
+.stFileUploader:hover {
+    background-color: #eef6ff;
+    border-color: #3771A1;
+}
+
+/* Make the input box wider */
+.stFileUploader>div {
+    max-width: 100%;
+}
+/* ---------- Light Theme ---------- */
+body.theme-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.theme-light .stButton>button {
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  transition: 0.3s ease;
+}
+
+.theme-light .stButton>button:hover {
+  background-color: #357ab8;
+}
+
+/* ---------- Dark Theme ---------- */
+body.theme-dark {
+  background-color: #0E1117;
+  color: #ffffff;
+}
+
+.theme-dark .stButton>button {
+  background-color: #1f2937;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #444;
+  padding: 8px 16px;
+  transition: 0.3s ease;
+}
+
+.theme-dark .stButton>button:hover {
+  background-color: #374151;
+  border-color: #555;
+}
+
+/* ---------- Common ---------- */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+.stSelectbox, .stRadio {
+  margin-top: 12px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
+}

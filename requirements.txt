@@ -6,5 +6,5 @@ faster-whisper
 fpdf
 python-docx
 markdown
-torch>=2.1.0          # required by faster-whisper
-numpy                  # required by faster-whisper
+torch>=2.1.0
+numpy

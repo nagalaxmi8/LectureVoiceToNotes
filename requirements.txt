@@ -1,10 +1,10 @@
 streamlit
 pydub
 yt-dlp
-google-generativeai
 faster-whisper
 fpdf
 python-docx
 markdown
 torch>=2.1.0
 numpy
+google-generativeai==1.2.0

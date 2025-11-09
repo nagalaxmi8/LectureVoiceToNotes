@@ -1,4 +1,7 @@
 streamlit
+python-docx
 yt-dlp
 google-generativeai
 fpdf2
+markdown
+

@@ -1,0 +1,161 @@
+/* ---------------- PREMIUM UI 2025 ---------------- */
+
+html, body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #ffffff 0%, #eef4ff 100%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.block-container {
+    max-width: 900px !important;
+    margin: auto;
+    padding: 2rem 2.5rem;
+    border-radius: 18px;
+    background: #ffffffdd;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+/* Title */
+h1 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+    text-align: center;
+    color: #2b59c3;
+    margin-bottom: 1rem;
+}
+
+/* Subtitle / labels */
+h2, h3 {
+    font-weight: 600;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(135deg, #4B8BBE 0%, #2b59c3 100%);
+    border: none;
+    padding: 0.9em 1.5em;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #2b59c3 0%, #1b3f83 100%);
+}
+
+/* File uploader */
+.stFileUploader {
+    border: 2px dashed #4B8BBE;
+    padding: 2rem;
+    border-radius: 14px;
+    background: #f8fbff;
+    transition: border-color 0.3s;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.stFileUploader:hover {
+    border-color: #2b59c3;
+    background: #eaf1ff;
+}
+
+/* Expander customization */
+.stExpander {
+    border: 1px solid #cfd8ff;
+    border-radius: 12px;
+    padding: 0.8rem;
+    background: #ffffff;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.08);
+}
+
+.stExpander p {
+    font-size: 1.05rem;
+}
+
+/* Inputs */
+.stTextInput>div>input,
+.stSelectbox>div>div {
+    border-radius: 10px !important;
+    padding: 0.6em;
+    font-size: 1rem;
+    border: 1.5px solid #b9c6ff;
+    background: #ffffff;
+}
+
+.stTextInput>div>input:focus,
+.stSelectbox>div>div:hover {
+    border-color: #2b59c3;
+}
+
+/* Summary & quiz download buttons */
+.stDownloadButton>button {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border-radius: 10px;
+    padding: 0.6em 1.2em;
+    color: white !important;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.stDownloadButton>button:hover {
+    transform: scale(1.04);
+    background: linear-gradient(135deg, #0f9e70 0%, #047857 100%);
+}
+
+/* Divider line */
+hr {
+    height: 2px;
+    background: linear-gradient(to right, #2b59c3, #4B8BBE);
+    border: none;
+    margin: 1.8rem 0;
+}
+
+/* Theme — light */
+body.theme-light {
+    background: linear-gradient(135deg, #ffffff, #f2f7ff);
+}
+
+/* Theme — dark */
+body.theme-dark {
+    background: #0E1117;
+    color: #e5e7eb;
+}
+
+body.theme-dark .block-container {
+    background: #161b22;
+    border: 1px solid #2b2f36;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+body.theme-dark h1 {
+    color: #7da6ff;
+}
+
+body.theme-dark .stButton>button {
+    background: linear-gradient(135deg, #3a4b7c, #1c294b);
+}
+
+body.theme-dark .stExpander {
+    background: #1d2633;
+    border-color: #3a4b5e;
+}
+
+body.theme-dark .stDownloadButton>button {
+    background: linear-gradient(135deg, #0ea779, #0b8a63);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
